@@ -17,7 +17,7 @@
 
 // const regEx = RegExp(/\a/g);
 
-// console.log(str.replace(regEx, "b"));  bu reduce orqali harfni almashtirish 
+// console.log(str.replace(regEx, "b"));  bu reduce orqali harfni almashtirish
 
 // //1-masala
 
@@ -50,21 +50,19 @@
 
 //4-masala
 
-
 //  let url = "https://www.fifa.com"
 
 // const regEx = /^(\D{5})[:]?[\/][\/](\D{3})[.](\D{3,})|(\d{1,})?[.](com)$/g;
 
 // let result = regEx.test(url)
 
-// console.log(result); 
+// console.log(result);
 
 // 5-masala
 
 // const Ipadresss = '[192.168.0.1]'
 
 // const regEx = /[\(]?(\d{3})[.,]?(\d{3})[.](\d{1,4})[.]?(\d{1,4})?\)?/g;
-
 
 // let result = regEx.test(Ipadresss)
 
@@ -80,6 +78,20 @@
 
 // console.log(result);
 
-// 7-masala
+// 7-masala tushunmadm
 
+// 8-masala
 
+// let name = "Apple701"
+
+// const regEx = /[a-zA-Z0-9]/g;
+
+// let result = regEx.test(name)
+
+// console.log(result);
+
+// 9-masala
+
+// let number = "1234Absdad44";
+
+// console.log(number.match(/[0-9]/g));
