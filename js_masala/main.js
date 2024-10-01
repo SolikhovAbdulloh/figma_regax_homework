@@ -51,12 +51,35 @@
 //4-masala
 
 
-// let url = "https://www.fifa.com"
+//  let url = "https://www.fifa.com"
 
-// const regEx = /(\D{5})[:]?[\/][\/](\D{3})[.](\D{3,})|(\d{1,})?[.](com)/g;
+// const regEx = /^(\D{5})[:]?[\/][\/](\D{3})[.](\D{3,})|(\d{1,})?[.](com)$/g;
 
 // let result = regEx.test(url)
 
-// console.log(result);
+// console.log(result); 
 
 // 5-masala
+
+// const Ipadresss = '[192.168.0.1]'
+
+// const regEx = /[\(]?(\d{3})[.,]?(\d{3})[.](\d{1,4})[.]?(\d{1,4})?\)?/g;
+
+
+// let result = regEx.test(Ipadresss)
+
+// console.log(result);
+
+// 6-masala
+
+// let pasport = 'AB0123456'
+
+// const regEx = /^A[A-Z]?(\d{7})$/g;
+
+// let result = regEx.test(pasport)
+
+// console.log(result);
+
+// 7-masala
+
+

@@ -1,0 +1,43 @@
+REGEX (Regular Expression) — bu matnni qidirish va manipulyatsiya qilish uchun ishlatiladigan kuchli
+ vosita. U matndagi naqshlarni aniqlash, o'rniga qo'yish yoki tekshirish uchun qo'llaniladi.
+REGEX har xil dasturlash tillari, shuningdek, matn muharrirlari va qidiruv tizimlarida keng qo'llaniladi.
+
+REGEX asoslari:
+REGEX alifbolar, raqamlar, maxsus belgilar va qator belgilar
+ yordamida tuziladi. Har xil naqshlarni topish yoki qatorlarni
+  tekshirish uchun belgilangan sintaksis qo'llaniladi.
+
+
+Asosiy REGEX belgilar:
+. (nuqta): Har qanday bitta belgini ifodalaydi (yangi qatordan tashqari).
+
+Masalan, a.b naqshi a va b orasida har qanday bitta belgini qidiradi. (masalan, acb, a_b).
+*: O'zidan oldingi belgini 0 yoki ko'p marta takrorlanishini bildiradi.
+
+Masalan, ab* naqshi a va undan keyin 0 yoki ko'p b belgisini qidiradi (masalan, a, ab, abb).
++: O'zidan oldingi belgini kamida 1 marta takrorlanishini bildiradi.
+
+Masalan, ab+ naqshi a va undan keyin kamida bitta b belgisini qidiradi (masalan, ab, abb, lekin a emas).
+?: O'zidan oldingi belgi 0 yoki 1 marta uchrashi mumkinligini bildiradi.
+
+Masalan, colou?r naqshi color yoki colour so'zlarini qidiradi.
+\d: Har qanday raqamni (0-9) qidiradi.
+
+Masalan, \d{3} naqshi ketma-ket uchta raqamni (masalan, 123, 456) qidiradi.
+\w: Har qanday alfanumerik belgi (a-z, A-Z, 0-9, _) qidiradi.
+
+Masalan, \w+ naqshi har qanday belgilar ketma-ketligini qidiradi (masalan, abc123).
+[]: Ichidagi belgilar to'plamini bildiradi.
+
+Masalan, [aeiou] naqshi unli harflarni qidiradi.
+^: Qator boshidan boshlanishini bildiradi.
+
+Masalan, ^hello naqshi matn boshida hello ni qidiradi.
+$: Qator oxiridan tugashini bildiradi.
+
+Masalan, world$ naqshi matn oxirida world ni qidiradi.
+\b: So'z chegarasini bildiradi.
+
+Masalan, \bcat\b naqshi cat so'zini mustaqil so'z sifatida qidiradi (masalan, "cat", lekin "cats" emas).
+
+

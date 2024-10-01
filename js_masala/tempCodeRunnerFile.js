@@ -1,6 +1,7 @@
+let url = "https://www.fifa.com"
 
-let str = "Solikhov Asad";
+const regEx = /(\D{5})[:]?[\/][\/](\D{3})[.](\D{3,})|(\d{1,})?[.](com)/g;
 
-const regEx = RegExp(/\a/g);
+let result = regEx.test(url)
 
-console.log(str.replace(regEx, "b"));
+console.log(result);
