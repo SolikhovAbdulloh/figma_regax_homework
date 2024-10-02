@@ -110,3 +110,16 @@
 
 // 12-masala
 
+// let month = '12/06/1999'
+
+// console.log(month.match(/(\d{2})[\/\.]?(\d{2})[.\/]?(\d{4})/g));
+
+// 13-masala
+
+// let reverse = 'abdwlklabdwlla#$%#$%@bdw'
+
+// console.log(reverse.match(/(abd+w)/g));
+
+// 14-masala
+
+let arifmetik = ''
