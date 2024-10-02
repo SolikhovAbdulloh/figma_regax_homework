@@ -95,3 +95,18 @@
 // let number = "1234Absdad44";
 
 // console.log(number.match(/[0-9]/g));
+
+//10-masala
+
+// let year = '2014-yil'
+
+// console.log(year.match(/[\d{4}]/g));
+
+// 11-masala
+
+// let alpha = 'AbSdFgHj'
+
+// console.log(alpha.match(/[a-zA-z]/g));
+
+// 12-masala
+
